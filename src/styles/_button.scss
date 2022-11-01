@@ -1,0 +1,19 @@
+.button {
+    appearance: none;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: var(--color-white);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+}
+  
+.button-slim {
+    padding: .1rem;
+}
+
+.button:hover {
+    color: var(--color-black);
+    cursor: pointer;
+    background: var(--color-white);
+}

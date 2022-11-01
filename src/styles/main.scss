@@ -1,0 +1,46 @@
+@import 'background';
+@import 'button';
+@import 'border';
+@import 'text';
+
+:root {
+  --color-red: rgb(231, 6, 6);
+  --color-green: rgb(0, 233, 97);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-dark-gray: rgb(10, 10, 10);
+  --color-gray: rgb(77, 77, 77);
+  --color-orange: rgb(255, 179, 0);
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: var(--color-black);
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+body {
+  position: relative;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem;
+}
+
+p,h1,h2,h3 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.p-1 {
+  padding: 1rem;
+}
